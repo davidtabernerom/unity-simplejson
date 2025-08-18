@@ -1,3 +1,14 @@
 {
-	"name": "SimpleJSON"
+	"name": "Bunny83.SimpleJSON",
+	"rootNamespace": "Bunny83",
+	"references": [],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
 }
