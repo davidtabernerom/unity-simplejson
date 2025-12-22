@@ -1,6 +1,6 @@
 {
-	"name": "git.bunny83.simplejson",
-	"version": "2025.3.17",
+	"name": "dev.tabernero.simplejson",
+	"version": "2025.12.220",
 	"displayName": "SimpleJSON",
 	"description": "",
 	"documentationUrl": "https://github.com/Bunny83/SimpleJSON",
@@ -11,7 +11,7 @@
 		"scripting"
 	],
 	"author": {
-		"name": "Bunny83",
-		"url": "https://github.com/Bunny83"
+		"name": "David Tabernero M.",
+		"url": "https://github.com/davidtabernerom"
 	}
 }
