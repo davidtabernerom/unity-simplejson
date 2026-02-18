@@ -247,19 +247,13 @@ namespace Tabernero.SimpleJSON
 		}
 
 
-		public override string ToString()
-		{
-			StringBuilder sb = new();
-			WriteToStringBuilder(sb, 0, 0, JSONTextMode.Compact);
-			return sb.ToString();
-		}
-
-		public virtual string ToString(bool inline) => ToString(4);
+		public override string ToString() => ToString(true);
+		public virtual string ToString(bool inline) => ToString(inline ? 0 : 4);
 		public virtual string ToString(int aIndent)
 		{
 			StringBuilder sb = new();
 			this.Inline = (aIndent <= 0);
-			WriteToStringBuilder(sb, 0, aIndent, JSONTextMode.Indent);
+			WriteToStringBuilder(sb, 0, aIndent, (this.Inline ? JSONTextMode.Compact : JSONTextMode.Indent));
 			return sb.ToString();
 		}
 
@@ -829,8 +823,8 @@ namespace Tabernero.SimpleJSON
 		{
 			aSB.Append('[');
 			int count = m_List.Count;
-			if (inline)
-				aMode = JSONTextMode.Compact;
+			//if (inline)
+			//	aMode = JSONTextMode.Compact;
 			for (int i = 0; i < count; i++)
 			{
 				if (i > 0)
@@ -999,8 +993,8 @@ namespace Tabernero.SimpleJSON
 		{
 			aSB.Append('{');
 			bool first = true;
-			if (inline)
-				aMode = JSONTextMode.Compact;
+			//if (inline)
+			//	aMode = JSONTextMode.Compact;
 			foreach (var k in m_Dict)
 			{
 				if (!first)
