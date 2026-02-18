@@ -1,6 +1,6 @@
-# SimpleJSON (Unity Fork)
+# SimpleJSON for Unity
 
-This is an **fork** of the [SimpleJSON project by Bunny83](https://github.com/Bunny83/SimpleJSON).
+This is a **fork** of the [SimpleJSON project by Bunny83](https://github.com/Bunny83/SimpleJSON).
 The purpose of this fork is to provide the **minimum necessary modifications and additions** required for the library to work smoothly within **Unity**.
 
 
