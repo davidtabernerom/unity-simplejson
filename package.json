@@ -1,9 +1,9 @@
 {
 	"name": "dev.tabernero.simplejson",
-	"version": "2025.12.220",
+	"version": "2026.2.0",
 	"displayName": "SimpleJSON",
 	"description": "",
-	"documentationUrl": "https://github.com/Bunny83/SimpleJSON",
+	"documentationUrl": "https://github.com/davidtabernerom/unity-simplejson",
 	"unity": "6000.0",
 	"license": "MIT",
 	"dependencies": {},
