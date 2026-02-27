@@ -540,6 +540,7 @@ namespace Tabernero.SimpleJSON
 				return token;
 		}
 
+		public static JSONNode New() => Parse("{}");
 		public static JSONNode Parse(string aJSON)
 		{
 			Stack<JSONNode> stack = new Stack<JSONNode>();
